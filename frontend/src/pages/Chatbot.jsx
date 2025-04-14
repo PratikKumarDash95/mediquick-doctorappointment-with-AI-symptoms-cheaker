@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { GoogleGenerativeAI } from "@google/generative-ai"; // Import Gemini API
 
 // ✅ Use the correct API Key (Replace with your actual key)
-const genAI = new GoogleGenerativeAI("AIzaSyDNxqFBg2HLIwvAD6ZemUiO5eUgK5ITww8");
+const genAI = new GoogleGenerativeAI("----------------enter api------------");
 
 const Chatbot = () => {
   const [messages, setMessages] = useState([]);
